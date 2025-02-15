@@ -27,3 +27,19 @@ function getGrade(score) {
     return "F";
   }
 }
+
+// function to check whether the stundent has pass grade or not.
+
+function hasPassingGrade(score) {
+  return getGrade(score) !== "F";
+}
+//funcion calling to check the correct functionality of hasPassingGrage function.
+console.log(hasPassingGrade(100));
+console.log(hasPassingGrade(53));
+console.log(hasPassingGrade(87));
+
+//function to message the student thier average, grade and whether he /she has passed of failed.
+function studentMsg(totalScores, studentScore) {
+
+}
+console.log(studentMsg([92, 88, 12, 77, 57, 100, 67, 38, 97, 89], 37));
